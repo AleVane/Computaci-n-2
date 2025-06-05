@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackBox - Herramientas de IA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="encabezado-animado">
+        <div class="logo">
+            <h1><a href="index.html">Herramientas de IA</a></h1>
+        </div>
+        <nav>
+            <ul class="menu-principal">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="chatgpt.html">ChatGPT</a></li>
+                <li><a href="gemini.html">Gemini</a></li>
+                <li><a href="deepseek.html">DeepSeek</a></li>
+                <li><a href="copilot.html">Copilot</a></li>
+                <li><a href="grok.html">Grok</a></li>
+                <li class="menu-desplegable">
+                    <a href="#" class="activo">BlackBox <i class="fas fa-chevron-down"></i></a>
+                    <ul class="submenu">
+                        <li><a href="#codigo">Para desarrolladores</a></li>
+                        <li><a href="#seguridad">Seguridad</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html"><i class="fas fa-info-circle"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="heroe-herramienta">
+            <div class="contenido-heroe">
+                <h1>BlackBox</h1>
+                <p>Solución de IA especializada para desarrolladores y equipos técnicos</p>
+            </div>
+        </section>
+
+        <section class="seccion-carrusel">
+            <h2>BlackBox en acción</h2>
+            <div class="swiper mi-carrusel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imagenes/carruseles/blackbox1.jpg" alt="Interfaz de BlackBox">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagenes/carruseles/blackbox2.jpg" alt="BlackBox analizando código">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagenes/carruseles/blackbox3.jpg" alt="BlackBox en equipo">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="seccion-video">
+            <h2>Demostración de BlackBox</h2>
+            <div class="contenedor-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/31ke2ZatsNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="codigo" class="seccion-caracteristicas">
+            <h2>Para desarrolladores</h2>
+            <div class="contenedor-caracteristicas">
+                <div class="caracteristica">
+                    <i class="fas fa-terminal"></i>
+                    <h3>Extracción de código</h3>
+                    <p>Identifica y extrae código de imágenes, videos y documentos.</p>
+                </div>
+                <div class="caracteristica">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Análisis estático</h3>
+                    <p>Detecta vulnerabilidades y sugiere correcciones.</p>
+                </div>
+                <div class="caracteristica">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3>Conversión de código</h3>
+                    <p>Transforma código entre lenguajes manteniendo la lógica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="seguridad" class="seccion-seguridad">
+            <h2>Seguridad avanzada</h2>
+            <div class="contenedor-seguridad">
+                <div class="item-seguridad">
+                    <i class="fas fa-lock"></i>
+                    <h3>Privacidad</h3>
+                    <p>Tus códigos nunca se usan para entrenar modelos públicos.</p>
+                </div>
+                <div class="item-seguridad">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Control de acceso</h3>
+                    <p>Gestión granular de permisos para equipos.</p>
+                </div>
+                <div class="item-seguridad">
+                    <i class="fas fa-server"></i>
+                    <h3>Implementación privada</h3>
+                    <p>Opción para instalación en tus propios servidores.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-testimonios">
+            <h2>Testimonios de usuarios</h2>
+            <div class="contenedor-testimonios">
+                <div class="testimonio">
+                    <div class="imagen-usuario">
+                        <img src="imagenes/testimonios/usuario16.jpg" alt="Usuario 16">
+                    </div>
+                    <div class="contenido-testimonio">
+                        <p>"BlackBox nos ha ahorrado cientos de horas al convertir código heredado a lenguajes modernos."</p>
+                        <div class="info-usuario">
+                            <h4>Diana Gómez</h4>
+                            <span>Arquitecto de Software</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <div class="imagen-usuario">
+                        <img src="imagenes/testimonios/usuario17.jpg" alt="Usuario 17">
+                    </div>
+                    <div class="contenido-testimonio">
+                        <p>"La capacidad de extraer código de screenshots ha revolucionado nuestro proceso de documentación."</p>
+                        <div class="info-usuario">
+                            <h4>Patricia Vargas</h4>
+                            <span>Líder de QA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <div class="imagen-usuario">
+                        <img src="imagenes/testimonios/usuario18.jpg" alt="Usuario 18">
+                    </div>
+                    <div class="contenido-testimonio">
+                        <p>"En nuestro banco, la seguridad es primordial. BlackBox cumple con todos nuestros estándares."</p>
+                        <div class="info-usuario">
+                            <h4>Fiona Martínez</h4>
+                            <span>Director de TI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenido-pie">
+            <div class="seccion-pie acerca-de">
+                <h3>Información Personal</h3>
+                <p><span>Nombre completo:</span>
+                    Alejandra Vanessa Martinez Maldonado</p>
+                <p><span>Correo institucional:</span>
+                    alejandra.vanessa.martinez.maldonado
+                    @estudiante.uacm.edu.mx</p>
+            </div>
+            <div class="seccion-pie enlaces">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="chatgpt.html">ChatGPT</a></li>
+                    <li><a href="gemini.html">Gemini</a></li>
+                    <li><a href="deepseek.html">DeepSeek</a></li>
+                    <li><a href="copilot.html">Copilot</a></li>
+                    <li><a href="grok.html">Grok</a></li>
+                    <li><a href="blackbox.html">BlackBox</a></li>
+                </ul>
+            </div>
+            <div class="seccion-pie redes">
+                <h3>Redes Sociales</h3>
+                <div class="iconos-redes">
+                    <a href="https://www.facebook.com/share/16jZLBHsSv/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/aicommunity" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/cerebrodigital.ia?igsh=MTM1NXV4dXV1ZTl5eg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com/@ia_innova?si=Vnv3_57uVy-72Ayh" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@ia_diarionoticias?_t=ZS-8wwAmIYINov&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="base-pie">
+            <p>&copy; 2025 Herramientas de IA. Computacion II - UACM</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/principal.js"></script>
+    <script>
+        var swiper = new Swiper(".mi-carrusel", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>

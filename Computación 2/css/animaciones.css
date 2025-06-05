@@ -1,0 +1,127 @@
+/* Animación de colores */
+@keyframes cambioColor {
+    0% { background-color: #4a6bff; }
+    25% { background-color: #00cec9; }
+    50% { background-color: #6c5ce7; }
+    75% { background-color: #fd79a8; }
+    100% { background-color: #4a6bff; }
+}
+
+.seccion-animacion-colores {
+    animation: cambioColor 10s infinite;
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Animaciones de entrada */
+.fundido-entrada {
+    animation: fundidoEntrada 1s ease-in;
+}
+
+@keyframes fundidoEntrada {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.deslizar-izquierda {
+    animation: deslizarDesdeIzquierda 0.8s ease-out;
+}
+
+@keyframes deslizarDesdeIzquierda {
+    from {
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.deslizar-derecha {
+    animation: deslizarDesdeDerecha 0.8s ease-out;
+}
+
+@keyframes deslizarDesdeDerecha {
+    from {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.deslizar-arriba {
+    animation: deslizarDesdeAbajo 0.8s ease-out;
+}
+
+@keyframes deslizarDesdeAbajo {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Animación de hover para tarjetas */
+.crecer-hover {
+    transition: transform 0.3s ease;
+}
+
+.crecer-hover:hover {
+    transform: scale(1.05);
+}
+
+/* Animación de botón */
+.latido {
+    animation: latido 2s infinite;
+}
+
+@keyframes latido {
+    0% {
+        box-shadow: 0 0 0 0 rgba(74, 107, 255, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(74, 107, 255, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(74, 107, 255, 0);
+    }
+}
+
+/* Transiciones de texto */
+.transicion-texto {
+    transition: all 0.3s ease;
+}
+
+.transicion-texto:hover {
+    color: var(--color-primario);
+    letter-spacing: 1px;
+}
+
+/* Rotación */
+.rotar {
+    animation: rotar 10s linear infinite;
+}
+
+@keyframes rotar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Flotar */
+.flotar {
+    animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
